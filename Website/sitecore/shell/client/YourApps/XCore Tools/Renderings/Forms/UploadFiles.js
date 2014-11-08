@@ -171,8 +171,8 @@ define(["sitecore", "jqueryui", "fileUpload", "iFrameTransport"], function (_sc,
             }
             this.databaseName = this.$el.data("sc-databasename") ? this.$el.data("sc-databasename") : "core";
             this.apiUrl = this.$el.data("sc-apiurl") ? this.$el.data("sc-apiurl") : "/api/sitecore/UploadFiles/Upload";
-            this.MediaFolderPath = this.$el.data("sc-mediaFolderPath") ? this.$el.data("sc-mediaFolderPath") : "/sitecore/media library/Uploaded Files";
-            this.url = this.apiUrl + "?database=" + this.databaseName + "&mediaFolder=" + this.MediaFolderPath;
+            this.MediaFolderPath = this.$el.data("sc-mediafolderpath") ? this.$el.data("sc-mediafolderpath") : "/sitecore/media library/Uploaded Files";
+            this.url = this.apiUrl + "?database=" + this.databaseName + "&mediaFolderPath=" + this.MediaFolderPath;
             this.model.set("totalFiles", 0);
             this.datas = [];
             this.$el.find(".sc-uploader-fileupload").attr("data-url", this.url);
@@ -241,9 +241,10 @@ define(["sitecore", "jqueryui", "fileUpload", "iFrameTransport"], function (_sc,
             model = _.find(this.collection.models, function (model) {
                 return model.get("id") === id;
             });
-
-            model.set("image", data.uploadedFileItems[0].Icon);
-            model.set("itemId", data.uploadedFileItems[0].ItemId);
+            if (data.uploadedFileItems != null) {
+                model.set("image", data.uploadedFileItems[0].Icon);
+                model.set("itemId", data.uploadedFileItems[0].ItemId);
+            }
             this.app.trigger("upload-fileUploaded", model.toJSON());
         },
         afterRender: function () {
