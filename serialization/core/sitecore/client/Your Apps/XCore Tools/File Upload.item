@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {CB0935C6-780C-4E48-9A86-884066F0ED29}
+database: core
+path: /sitecore/client/Your Apps/XCore Tools/File Upload
+parent: {689E18BD-5E1F-4783-92AF-038D977BFB8D}
+name: File Upload
+master: {00000000-0000-0000-0000-000000000000}
+template: {C63C943A-CB4D-45D6-880C-208BD29DAE1A}
+templatekey: Speak-TaskPage
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 24
+
+Network/16x16/upload.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2806
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{A82840D0-633E-4D1A-B7FE-8C0062AA22F1}" par="Id=UploadInfoTexts&amp;Phrases=Ready%7cDone%7cUploading" ph="Page.Code" uid="{5AB1EAC9-67A2-4A3D-BA8F-BC929006E8EF}" />
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fYourApps%2fXCore+Tools%2fFile+Upload%2fFile+Upload.js" ph="Page.Code" uid="{724DD7BD-42A6-4E7D-9453-6FBF7FA77E02}" />
+    <r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{E982102C-D7FE-4C87-9AF6-74F08CC08F64}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{08DD457B-1847-4D80-94EB-F886C416E6CD}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo" ph="GlobalHeader.StartButton" uid="{0E89AEBF-6C45-4BF9-8B93-FC6E5BAF6E11}" />
+    <r id="{EC86834B-890C-405C-BB36-CA25044909E1}" ph="GlobalFooter" uid="{C87B47D7-21D6-416E-A0F8-A75597DC2904}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{05BF33EA-5EF8-41EA-B713-DE4436CC0208}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Text&amp;Text=Upload+Files" ph="ApplicationHeader.Title" uid="{1140302F-2137-4B65-98F3-BAD7FAF90159}" />
+    <r id="{19A9EB6B-1283-49EB-BD75-AAFE76453469}" ph="ApplicationContent" uid="{C0B4E9DC-7E17-4BB9-8F3C-BE9F206012D8}" />
+    <r id="{73C16115-8B56-43AF-8EA3-4D704FCDA127}" par="Id=Separator" ph="ApplicationContent.Main" uid="{6473E236-B8F6-49FF-8496-74C19A552B0B}" />
+    <r id="{9F624611-D7C2-4866-B227-3A5EBEFC564F}" par="Id=UploadFiles&amp;Url=%2fapi%2fsitecore%2fUploadFiles%2fUpload&amp;MediaFolderPath=%2fsitecore%2fmedia+library%2fXCore+Tools%2fExample&amp;Database=core" ph="ApplicationContent.Main" uid="{2725181D-0E50-4E2A-B454-B679DC980FD5}" />
+    <r id="{F05CDBA5-03ED-46D2-B58C-C0283F86C332}" par="Id=UploaderInfo" ph="ApplicationContent.Main" uid="{B0763944-C6B1-4FD9-AA5F-C803B0327E17}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=MessageBar" ph="ApplicationContent.Main" uid="{392AAA1A-96C2-4D1A-89E4-7C782390E201}" />
+    <r id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=UploadButton&amp;Text=Upload" ph="ApplicationContent.Main" uid="{635D8B16-D8A9-418E-8520-2CCA9ACF3894}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b124D4025-684F-4E96-8707-1CED16C8905E%7d&amp;Id=ErrorRule&amp;Trigger=sc-error&amp;Field=Rule" ph="Page.Body" uid="{3CCE43C1-2F9A-4BBD-AE34-BBDF80190C94}" />
+    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b19DCDA0C-C20B-4FFA-8057-F8608B933FDC%7d&amp;Id=RemoveErrorRule&amp;Trigger=sc-uploader-remove&amp;Field=Rule" ph="Page.Body" uid="{E0EF21F9-5680-4A69-8C9F-FF4CB79F72B5}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 9bba5b4d-3ed9-4583-b23a-5c070c1711bd
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 11
+
+Upload File
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140429T090957
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9bba5b4d-3ed9-4583-b23a-5c070c1711bd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141108T154212:635510581324702420
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

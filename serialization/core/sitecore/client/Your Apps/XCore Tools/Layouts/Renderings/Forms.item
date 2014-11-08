@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {B04D9388-9BF1-44F2-B9B9-F52445B67728}
+database: core
+path: /sitecore/client/Your Apps/XCore Tools/Layouts/Renderings/Forms
+parent: {690200EA-CE05-4452-8A7A-353AEB3DBC99}
+name: Forms
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----version----
+language: en
+version: 1
+revision: ad326ef9-f406-482f-a3db-081ca27d3c02
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140429T090026
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ad326ef9-f406-482f-a3db-081ca27d3c02
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140429T090030:635343588305233344
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

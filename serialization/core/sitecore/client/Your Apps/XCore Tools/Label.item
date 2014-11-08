@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {CD351B98-CFF9-43D2-829A-4EBC2F37B008}
+database: core
+path: /sitecore/client/Your Apps/XCore Tools/Label
+parent: {689E18BD-5E1F-4783-92AF-038D977BFB8D}
+name: Label
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 785
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fYourApps%2fXCore+Tools%2fLabel%2fLabel.js" ph="Page.Code" uid="{0C463892-95E2-43DD-A522-345DD218CADE}" />
+    <r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{7BA2788F-4F5F-418C-8975-F4C503BB3253}" />
+    <r ds="{D7D99EB9-84C6-4FEF-86DA-90D8576A6021}" id="{ACE0AFD6-3DE0-42CF-8E62-4E68CD810A8D}" par="Id=ListControl" ph="ApplicationContent" uid="{F2DF0D90-B5FC-42F6-9ABB-62A6B81C22F9}" />
+    <r id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=GenericDataProvider" ph="ApplicationContent" uid="{142CC5ED-20E9-40AD-8B26-090728EC9D79}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 04afb348-6e61-41e0-807c-0bcd5a9d8dfd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140501T161654
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+04afb348-6e61-41e0-807c-0bcd5a9d8dfd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140501T165832:635345603121881222
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C36E79F8-F494-40F7-A933-D187FE7E8A7B}
+database: core
+path: /sitecore/client/Your Apps/XCore Tools/Layouts/Renderings/Forms/UploadFiles/Messages/The maximum amount of data that you can upload is
+parent: {2A37DFD0-4F71-40E8-BE3D-8B73D756F683}
+name: The maximum amount of data that you can upload is
+master: {00000000-0000-0000-0000-000000000000}
+template: {76C2629E-3B7D-4EEE-82D0-F5DF443B56A5}
+templatekey: Notification Message
+
+----version----
+language: en
+version: 1
+revision: 4a85fbe0-b1a9-4c11-9f90-386978659525
+
+----field----
+field: {D281BD0C-D3EF-4012-B560-5DAAF3FA37A8}
+name: Text
+key: text
+content-length: 49
+
+The maximum amount of data that you can upload is
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20141108T144147
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a85fbe0-b1a9-4c11-9f90-386978659525
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141108T144201:635510545211124560
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
