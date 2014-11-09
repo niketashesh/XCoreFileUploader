@@ -1,7 +1,6 @@
 XCoreFileUploader
 =================
 
-SPEAK based file upload tool for Sitecore
 XCore’s file uploader control extends Sitecore’s Uploader control. It lets users select and upload files to the media library or post them to a custom controller. 
 
 Similar to Sitecore’s Uploader, XCore File Uploader control shows an area where users can drag and drop the files from their local computer that they want to upload.  
